@@ -96,42 +96,51 @@ b_2.place(x= 118, y= 0)
 
 b_3 = Button(frame_corpo, command= lambda: entrar_valores('/'), text='/', width=7, height=3, bg=co4, fg=co1, font=('Ivy 9 bold'), relief=RAISED, overrelief=RIDGE)
 b_3.place(x= 178, y= 0)
+
 b_4 = Button(frame_corpo, command= lambda: entrar_valores('*'),text='*', width= 7, height=3, bg=co4, fg=co1, font=('Ivy 9 bold'), relief=RAISED, overrelief=RIDGE)
 b_4.place(x= 178, y= 56)
+
 b_5 = Button(frame_corpo, command= lambda: entrar_valores('-'),text='-', width=7, height=3, bg=co4, fg=co1, font=('Ivy 9 bold'), relief=RAISED, overrelief=RIDGE)
 b_5.place(x= 178, y= 112)
+
 b_6 = Button(frame_corpo, command= lambda: entrar_valores('+'),text='+', width= 7, height=3, bg=co4, fg=co1, font=('Ivy 9 bold'), relief=RAISED, overrelief=RIDGE)
 b_6.place(x= 178, y= 168)
+
 b_7 = Button(frame_corpo, command= calcular, text='=', width=7, height=3, bg=co4, fg=co1, font=('Ivy 9 bold'), relief=RAISED, overrelief=RIDGE)
 b_7.place(x= 178, y= 224)
 
 b_8 = Button(frame_corpo, command= lambda: entrar_valores('0'),text='0', width= 16, height=3, bg=co1, font=('Ivy 9 bold'), relief=RAISED, overrelief=RIDGE)
 b_8.place(x= 0, y= 224)
-b_9 = Button(frame_corpo, command= lambda: entrar_valores('.'),text='.', width= 7, height=3, bg=co1, font=('Ivy 9 bold'), relief=RAISED, overrelief=RIDGE)
 
+b_9 = Button(frame_corpo, command= lambda: entrar_valores('.'),text='.', width= 7, height=3, bg=co1, font=('Ivy 9 bold'), relief=RAISED, overrelief=RIDGE)
 b_9.place(x= 118, y= 224)
+
 b_10= Button(frame_corpo, command= lambda: entrar_valores('7'),text='7', width= 7, height=3, bg=co1, font=('Ivy 9 bold'), relief=RAISED, overrelief=RIDGE)
 b_10.place(x= 0, y= 56)
+
 b_11= Button(frame_corpo, command= lambda: entrar_valores('8'),text='8', width= 7, height=3, bg=co1, font=('Ivy 9 bold'), relief=RAISED, overrelief=RIDGE)
 b_11.place(x= 59, y= 56)
-b_11= Button(frame_corpo, command= lambda: entrar_valores('9'),text='9', width= 7, height=3, bg=co1, font=('Ivy 9 bold'), relief=RAISED, overrelief=RIDGE)
 
-b_11.place(x= 118, y= 56)
-b_12= Button(frame_corpo, command= lambda: entrar_valores('6'),text='6', width= 7, height=3, bg=co1, font=('Ivy 9 bold'), relief=RAISED, overrelief=RIDGE)
-b_12.place(x= 0, y= 112)
-b_13= Button(frame_corpo, command= lambda: entrar_valores('5'),text='5', width= 7, height=3, bg=co1, font=('Ivy 9 bold'), relief=RAISED, overrelief=RIDGE)
-b_13.place(x= 59, y= 112)
-b_14= Button(frame_corpo, command= lambda: entrar_valores('4'),text='4', width= 7, height=3, bg=co1, font=('Ivy 9 bold'), relief=RAISED, overrelief=RIDGE)
-b_14.place(x= 118, y= 112)
+b_12= Button(frame_corpo, command= lambda: entrar_valores('9'),text='9', width= 7, height=3, bg=co1, font=('Ivy 9 bold'), relief=RAISED, overrelief=RIDGE)
+b_12.place(x= 118, y= 56)
 
-b_15= Button(frame_corpo, command= lambda: entrar_valores('3'),text='3', width= 7, height=3, bg=co1, font=('Ivy 9 bold'), relief=RAISED, overrelief=RIDGE)
-b_15.place(x= 0, y= 168)
-b_16= Button(frame_corpo, command= lambda: entrar_valores('2'),text='2', width= 7, height=3, bg=co1, font=('Ivy 9 bold'), relief=RAISED, overrelief=RIDGE)
-b_16.place(x= 59, y= 168)
-b_17= Button(frame_corpo, command= lambda: entrar_valores('1'),text='1', width= 7, height=3, bg=co1 , font=('Ivy 9 bold'), relief=RAISED, overrelief=RIDGE)
-b_17.place(x= 118, y= 168)
+b_13= Button(frame_corpo, command= lambda: entrar_valores('6'),text='6', width= 7, height=3, bg=co1, font=('Ivy 9 bold'), relief=RAISED, overrelief=RIDGE)
+b_13.place(x= 0, y= 112)
 
+b_14= Button(frame_corpo, command= lambda: entrar_valores('5'),text='5', width= 7, height=3, bg=co1, font=('Ivy 9 bold'), relief=RAISED, overrelief=RIDGE)
+b_14.place(x= 59, y= 112)
 
+b_15= Button(frame_corpo, command= lambda: entrar_valores('4'),text='4', width= 7, height=3, bg=co1, font=('Ivy 9 bold'), relief=RAISED, overrelief=RIDGE)
+b_15.place(x= 118, y= 112)
+
+b_16= Button(frame_corpo, command= lambda: entrar_valores('3'),text='3', width= 7, height=3, bg=co1, font=('Ivy 9 bold'), relief=RAISED, overrelief=RIDGE)
+b_16.place(x= 0, y= 168)
+
+b_17= Button(frame_corpo, command= lambda: entrar_valores('2'),text='2', width= 7, height=3, bg=co1, font=('Ivy 9 bold'), relief=RAISED, overrelief=RIDGE)
+b_17.place(x= 59, y= 168)
+
+b_18= Button(frame_corpo, command= lambda: entrar_valores('1'),text='1', width= 7, height=3, bg=co1 , font=('Ivy 9 bold'), relief=RAISED, overrelief=RIDGE)
+b_18.place(x= 118, y= 168)
 
 
 #chamando loop da janela para aparecer na tela e não fechar
